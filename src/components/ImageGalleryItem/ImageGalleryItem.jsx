@@ -10,6 +10,7 @@ class ImageGalleryItem extends Component {
   static propTypes = {
     webformatURL: PropTypes.string.isRequired,
     largeImageURL: PropTypes.string.isRequired,
+     alt: PropTypes.string.isRequired,
   };
 
   openModal = () => {
